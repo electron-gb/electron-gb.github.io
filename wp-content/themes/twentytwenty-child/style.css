@@ -1,0 +1,227 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Description:  Twenty Twenty Child Theme
+ Template:     twentytwenty	
+ Text Domain:  twentytwentychild
+ Version:      1.5.5
+*/
+
+/* Hide WordPress text in footer */ 
+.powered-by-wordpress {
+	display: none;
+} 
+
+
+/*** CONTENT PADDING AND SPACING ***/
+
+/* Reduce padding between bottom of blue header and top of white title area [may be deprecated]*/
+.post-inner, .cover-header + .post-inner, .archive-header {
+	padding-top: 4rem;
+}
+
+/* Reduce padding between blocks on front page */ 
+.entry-content > .alignwide:not(.wp-block-group.has-background) {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+/* Reduce padding between bottom of white content area and top of blue footer area */
+.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
+	margin-top: 4rem;
+}
+
+/* Set padding between bottom of header and top of title */
+.singular .entry-header, .archive-header {
+	padding-top: 4rem;
+	padding-bottom: 0rem;
+}
+
+/* Reduce padding between post compilation title and individual post titles */
+body:not(.singular) main > article:first-of-type {
+	padding-top: 0;
+}
+
+/* Reduce gap between each individual post on compliation pages */
+hr {
+	margin-bottom: 0;
+}
+
+/* Reduce padding above and below footer widget content */
+.footer-widgets-outer-wrapper {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+/* Increase content width */
+.entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+	max-width: 720px
+}
+
+/*** COLOURS ***/
+
+/* Make all text in header and footer areas white, plus the Instagram sidebar header text */
+.site-description, .toggle-text, 
+body:not(.overlay-header) #site-header .toggle, 
+body:not(.overlay-header) .primary-menu > li > a,
+.to-the-top, .modal-menu a, .header-footer-group .color-accent,
+.sbi_header_text, .footer-copyright, .header-footer-group, a {
+	color: white;
+}
+
+/* Make text under menu and search buttons white */
+body:not(.overlay-header) .toggle-inner .toggle-text {
+	color: white;
+}
+
+/* Make headings azure */
+h1.archive-title, .header-footer-group .color-accent, h1 {
+	color: #0080ff;
+}
+
+/* Make page title backgrounds white */
+.entry-header, .archive-header {
+	background-color: white !important;
+}
+
+/* Make footer "Search" box white */
+input[type="submit"] {
+	background-color: white;
+	color: #0080ff;
+}
+
+/* Change colour of button closing mobile navigation menu to white */
+.fill-children-current-color * {
+	fill: white;
+}
+
+/* Remove underlining on navigation links */ 
+a.site-description {
+	text-decoration: none !important;
+}
+
+/*** FONT FAMILIES ***/
+
+/** GOOD TIMES **/
+/* Import Good Times */
+@font-face {
+    font-family: 'GoodTimes';
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/good_times_rg-webfont.woff2') format('woff2'),
+         url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/good_times_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Set all headers and site description (right of logo in header) to be in Good Times font. */
+h1, h2, h3, h4, h5, h6, .site-description {
+	font-family: GoodTimes, Helvetica, sans-serif !important;
+}
+
+/** CENTURY GOTHIC **/
+
+/* Normal */
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic.eot');
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic.eot#iefix') format('embedded-opentype'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic.woff2') format('woff2'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic.woff') format('woff'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Bold.eot');
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Bold.eot#iefix') format('embedded-opentype'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Bold.woff') format('woff'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Bold italic */
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-BoldItalic.eot');
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-BoldItalic.eot#iefix') format('embedded-opentype'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-BoldItalic.woff2') format('woff2'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-BoldItalic.woff') format('woff'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Italic.eot');
+    src: url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Italic.eot#iefix') format('embedded-opentype'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Italic.woff2') format('woff2'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Italic.woff') format('woff'),
+        url('https://electron-gb.github.io/wp-content/themes/twentytwenty-child/fonts/CenturyGothic-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Set all other content to be in Century Gothic font, including overriding text above social icons */
+body, p, .entry-content figcaption, input, .entry-content, button, .widget-title, .faux-button {
+	font-family: CenturyGothic, Helvetica, sans-serif !important;
+}
+
+
+/*** ALWAYS-APPLIED FOR FONT SIZE AND SPACING ***/
+
+/* Increase letter spacing for all headers, and site description (right of logo in header) */
+h1, h2, h3, h4, h5, h6, .site-description {
+	letter-spacing: 0em;
+}
+
+/* Increase size of site description displayed right of logo in header */
+.site-description {
+	font-size: 4rem;
+}
+
+
+/*** VIEWPORT-DEPENDENT CHANGES ***/
+
+/** MOBILES **/
+/* Reduce font size of page titles */
+h1, .heading-size-1, .archive-title {
+	font-size: 3rem;
+}
+
+/* Reduce font size of text above social icons */
+.widget-title {
+	font-size: 2.5rem;
+}
+
+/** TABLETS **/
+@media (min-width: 700px) {
+	/* Reduce font size of page titles */
+	h1, .heading-size-1, .archive-title {
+		font-size: 5rem;
+	}
+	h2.entry-title {
+		font-size: 4rem;
+	}
+
+	/* Reduce font size of text above social icons */
+	.widget-title {
+	font-size: 3rem;
+	}
+}
+
+/** PCs **/
+@media (min-width: 1220px) {
+	/* Reduce font size of page titles */
+	h1, .heading-size-1, .archive-title {
+		font-size: 7rem;
+	}
+	h2.entry-title {
+		font-size: 5rem;
+	}
+	
+}

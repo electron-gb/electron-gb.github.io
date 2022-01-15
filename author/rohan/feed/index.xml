@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rohan &#8211; ELECTRON: F1 in Schools World Finalists 2021</title>
+	<atom:link href="https://electron-gb.github.io/author/rohan/feed/" rel="self" type="application/rss+xml" />
+	<link>https://electron-gb.github.io/</link>
+	<description>ELECTRON</description>
+	<lastBuildDate>Thu, 26 Aug 2021 13:28:39 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+
+<image>
+	<url>https://electron-gb.github.io/wp-content/uploads/2021/06/cropped-Logo-32x32.png</url>
+	<title>Rohan &#8211; ELECTRON: F1 in Schools World Finalists 2021</title>
+	<link>https://electron-gb.github.io/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>3D Print Direct</title>
+		<link>https://electron-gb.github.io/3d-print-direct/</link>
+		
+		<dc:creator><![CDATA[Rohan]]></dc:creator>
+		<pubDate>Thu, 26 Aug 2021 13:28:39 +0000</pubDate>
+				<category><![CDATA[Our sponsors]]></category>
+		<guid isPermaLink="false">https://electron-gb.github.io/?p=257</guid>
+
+					<description><![CDATA[This will be a post saying thank you to 3DPD for something. Here is where you can read more.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Nissan</title>
+		<link>https://electron-gb.github.io/nissan/</link>
+		
+		<dc:creator><![CDATA[Rohan]]></dc:creator>
+		<pubDate>Thu, 26 Aug 2021 13:26:45 +0000</pubDate>
+				<category><![CDATA[Our sponsors]]></category>
+		<guid isPermaLink="false">https://electron-gb.github.io/?p=255</guid>
+
+					<description><![CDATA[This will be a post saying thank you to Nissan for something. Here is where you can read more]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
